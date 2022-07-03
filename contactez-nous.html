@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,6 +18,7 @@
     <link rel="stylesheet" href="skin.css">
     <link rel="icon" href="media/favicon.png">
 </head>
+
 <body>
     <div id="preloader"></div>
     <nav class="menu-top-logo menu-fixed" data-menu-anima="fade-in">
@@ -62,20 +64,21 @@
                 </ul>
                 <div class="menu-right">
                     <div class="custom-area">
-                        34 avenue des <br />
-                        champs Elysées 75008 PARIS
+                        34 avenue des <br /> champs Elysées 75008 PARIS
                     </div>
                     <div class="shop-menu-cnt">
-                       <a href="https://lacartenettmob.com/space/app/sign-up" class="add__ons_href__color">S'inscrire</a>
+                        <a href="https://lacartenettmob.com/space/app/auth/register" class="add__ons_href__color">S'inscrire</a>
                     </div>
                     <div role="search" method="get" id="searchform" class="search-btn">
-                        <a href="https://lacartenettmob.com/space/app/log-in" class="add__ons_href__color">S'identifier</a>
+                        <a href="https://lacartenettmob.com/space/app/auth/login" class="add__ons_href__color">S'identifier</a>
                     </div>
                     <ul class="lan-menu">
                         <li class="dropdown">
                             <a href="#"><img src="media/fr.png" alt="lang" />FR </a>
                             <ul>
-                                <li><a href="#"><img src="media/en.png" alt="lang" />EN</a></li>
+                                <li>
+                                    <a href="#"><img src="media/en.png" alt="lang" />EN</a>
+                                </li>
                             </ul>
                         </li>
                     </ul>
@@ -92,11 +95,23 @@
                     <p>Informations</p>
                 </div>
                 <ul class="text-list text-list-line">
-                    <li><b>Addresse</b><hr /><p>34 avenue des champs Elysées<br>75008 PARIS</p></li>
-                    <li><b>Web</b><hr /><p>lacartenettmob.com</p></li>
-                    <li><b>Téléphone</b><p>(+33) 7 66 39 09 92</p></li>
-                    <li><b>Adresse Mail Commerciale:</b><p>contact@lacartenettmobcom</p></li>
-                    <li><b>Adresse Mail Support Technique:</b><p>support-technique@lacartenettmobm</p></li>
+                    <li><b>Addresse</b>
+                        <hr />
+                        <p>34 avenue des champs Elysées<br>75008 PARIS</p>
+                    </li>
+                    <li><b>Web</b>
+                        <hr />
+                        <p>lacartenettmob.com</p>
+                    </li>
+                    <li><b>Téléphone</b>
+                        <p>(+33) 7 66 39 09 92</p>
+                    </li>
+                    <li><b>Adresse Mail Commerciale:</b>
+                        <p>contact@lacartenettmobcom</p>
+                    </li>
+                    <li><b>Adresse Mail Support Technique:</b>
+                        <p>support-technique@lacartenettmobm</p>
+                    </li>
                 </ul>
                 <hr class="space-sm" />
                 <div class="icon-links icon-social icon-links-grid social-colors">
@@ -106,7 +121,7 @@
                     <a class="pinterest"><i class="icon-pinterest"></i></a>
                 </div>
             </div>
-        </section>  
+        </section>
         <section class="section-base">
             <div class="container">
                 <div class="row">
@@ -144,9 +159,9 @@
                             <p>Informations</p>
                         </div>
                         <p>
-                            Vous disposez dès l’ouverture de votre compte, d’un IBAN International qui vous permet d’émettre et recevoir des virements de manière instantanée partout en Europe* (dans la zone SEPA). Vous aurez également une carte physique et virtuelle, des paiements et retraits sans frais dans toutes les devises.
-
-                            Les plafonds varient selon l’offre choisie. À vous de choisir ou tester chaque offre pour trouver celle qui vous correspondra le mieux. Pour toute question, venez dans nos bureaux aux horaires ci-dessous
+                            Vous disposez dès l’ouverture de votre compte, d’un IBAN International qui vous permet d’émettre et recevoir des virements de manière instantanée partout en Europe* (dans la zone SEPA). Vous aurez également une carte physique et virtuelle, des paiements
+                            et retraits sans frais dans toutes les devises. Les plafonds varient selon l’offre choisie. À vous de choisir ou tester chaque offre pour trouver celle qui vous correspondra le mieux. Pour toute question, venez dans nos bureaux
+                            aux horaires ci-dessous
                         </p>
                         <table class="table table-border table-time">
                             <thead>
@@ -157,9 +172,21 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr><td>Lundi - Vendredi</td><td>8h - 12 h</td><td>13h - 18h</td></tr>
-                                <tr><td>Samedi</td><td>Fermer</td><td>15H - 20 H</td></tr>
-                                <tr><td>Sunday</td><td>Fermer</td><td>Fermer</td></tr>
+                                <tr>
+                                    <td>Lundi - Vendredi</td>
+                                    <td>8h - 12 h</td>
+                                    <td>13h - 18h</td>
+                                </tr>
+                                <tr>
+                                    <td>Samedi</td>
+                                    <td>Fermer</td>
+                                    <td>15H - 20 H</td>
+                                </tr>
+                                <tr>
+                                    <td>Sunday</td>
+                                    <td>Fermer</td>
+                                    <td>Fermer</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -191,11 +218,23 @@
                 </div>
                 <div class="col-lg-4">
                     <ul class="text-list text-list-line">
-                        <li><b>Addresse</b><hr /><p> 34 avenue des champs Elysées<br>75008 PARIS</p></li>
+                        <li><b>Addresse</b>
+                            <hr />
+                            <p> 34 avenue des champs Elysées<br>75008 PARIS</p>
+                        </li>
                         <br>
-                        <li><b>Email</b><hr /><p>contacts@lacartenettmob.com</p></li>
-                        <li><b>Téléphone</b><hr /><p>(+33) 7 66 39 09 92</p></li>
-                        <li><b>Heures d'ouverture</b><hr /><p>8h - 18h Lun - Sam</p></li>
+                        <li><b>Email</b>
+                            <hr />
+                            <p>contacts@lacartenettmob.com</p>
+                        </li>
+                        <li><b>Téléphone</b>
+                            <hr />
+                            <p>(+33) 7 66 39 09 92</p>
+                        </li>
+                        <li><b>Heures d'ouverture</b>
+                            <hr />
+                            <p>8h - 18h Lun - Sam</p>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -219,4 +258,5 @@
         <script src="themekit/scripts/contact-form/contact-form.js" async></script>
     </footer>
 </body>
+
 </html>
